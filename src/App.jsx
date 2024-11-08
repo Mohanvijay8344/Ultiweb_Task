@@ -153,7 +153,7 @@ const App = () => {
                     <button
                       type="button"
                       onClick={() => handleRemoveOption(index, optIdx)}
-                      className="ml-2 text-red-500"
+                      className="ml-2 text-red-500 hover:text-red-800"
                     >
                       Remove
                     </button>
@@ -184,13 +184,13 @@ const App = () => {
         <button
           type="button"
           onClick={handleAddQuestion}
-          className="bg-blue-500 text-white px-4 py-2 rounded mb-"
+          className="bg-blue-500 hover:bg-blue-800 text-white px-4 py-2 rounded mb-"
         >
           Add Question
         </button>
         <button
           type="submit"
-          className="bg-green-500 text-white px-4 py-2 rounded"
+          className="bg-green-500 hover:bg-green-800 text-white px-4 py-2 rounded"
         >
           Submit Form
         </button>
